@@ -1,0 +1,89 @@
+body * {
+    border: 1px solid rgb(201, 201, 201);
+}
+
+body {
+    height: 100vh;
+}
+
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    height: 50px;
+}
+
+.main-menu-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+a {
+    margin: 5px;
+    padding: 5px;
+}
+
+.header-container {
+    display: flex;
+}
+
+.left-container, .right-container {
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.left-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.content-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-main h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.card {
+    margin: 20px;
+    flex-basis: 150px;
+    flex-grow: 1;
+}
+
+.card-image {
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.card-description {
+    margin: 5px 0px;
+}
+
+.content-other {
+    margin: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text-quote {
+    padding: 5px 100px 0px 100px;
+}
+
+.text-quote-author {
+    text-align: right;
+    padding-right: 30vw;
+}
