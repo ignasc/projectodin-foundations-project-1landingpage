@@ -3,7 +3,24 @@ body * {
 }
 
 body {
+    font-family: "Roboto", serif;
+
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/*Main element block sizes*/
+.main-menu, .header-container, .content-main, .content-other {
+    border: 1px solid red;
+    flex-grow: 4;
+}
+.contacts {
+    flex-grow: 3;
+}
+.footer {
+    flex-grow: 2;
 }
 
 .main-menu {
@@ -73,7 +90,7 @@ a {
 }
 
 .content-other {
-    margin: 40px 20px;
+    padding: 40px 20px;
     display: flex;
     flex-direction: column;
     gap: 10px;
