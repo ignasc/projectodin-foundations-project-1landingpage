@@ -37,6 +37,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    max-height: 80px;
 }
 .main-menu-img-container {
     display: flex;
@@ -46,10 +47,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
+    max-height: 100%;
 }
 .main-menu-logo-container > img {
-    width: 100px;
+    width: 45px;
+    flex-grow: 0;
+    flex-shrink: 1;
 }
 .main-menu-logo-container > p {
     font-size: 28px;
@@ -132,13 +136,16 @@ a {
 
 .card {
     margin: 20px;
-    flex-basis: 150px;
-    flex-grow: 0;
-    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
 }
 
 .card-image {
-    height: 150px;
+    height: 100px;
     margin-bottom: 10px;
 }
 .card-image > img {
