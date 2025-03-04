@@ -3,6 +3,8 @@
 
 A project assignment to build a landing page using the taught materials so far.
 
+[Open website](https://ignasc.github.io/projectodin-foundations-project-1landingpage/)
+
 ### Main challenges
 
 * The biggest challenge was to fit images to the small cards neatly, keep their sizes fixed and maintain ratio.
