@@ -62,7 +62,7 @@ body {
     align-items: center;
 }
 
-.main-menu-links > a:hover {
+a:hover {
     background-color: #38aaf6;
 }
 
@@ -180,6 +180,10 @@ a {
 
 button {
     background-color: #3882f6;
+    border: 1px solid #f9faf8;
+    padding: 0.5rem;
+    font-weight: 600;
+    color: #f9faf8;
 }
 
 .call-to-action-container {
